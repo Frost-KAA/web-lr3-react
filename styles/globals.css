@@ -15,12 +15,40 @@ a {
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
   html {
-    color-scheme: dark;
+    color-scheme: light;
   }
   body {
-    color: white;
-    background: black;
+    color: black;
+    background: white;
   }
+}
+
+.form{
+  margin: 20px auto;
+  background-color: lightblue;
+  padding: 10px;
+  text-align: center;
+  width: 30%;
+}
+
+.form-control{
+  margin: 10px;
+  padding: 10px;
+}
+
+.form-btn{
+  margin: 5px;
+  padding: 10px 70px;
+  border: 0px;
+  border-radius: 2px;
+  background-color:rgb(29, 77, 107);
+  color: white;
+}
+
+.form-error{
+  color: red;
+  text-align: center;
+  font-weight: bold;
 }
